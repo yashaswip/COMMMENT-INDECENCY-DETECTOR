@@ -5,9 +5,12 @@ COMMENTS INDECENCY DETECTOR
 Yashika Singh, Yashaswi Rajesh Patki, Hang Yu, & Praveen Kumar Govind ReddyYeshiva University
 
 Abstract
+
+
 The proliferation of harmful and toxic speech on social media has escalated concerns about online safety and the quality of digital discourse (Namdari, 2023). This study addresses the urgent need for effective tools to identify and manage such content. We propose a multi-label classification model designed to detect various forms of harmful speech in social media comments, including toxic, severely toxic, obscene, threatening, insulting, and identity-related harm (Zhang, Zhao, & LeCun, 2015). Utilizing natural language processing techniques, our model leverages logistic regression extended through the MultiOutputClassifier framework. The study demonstrates the model's effectiveness in classifying diverse harmful behaviors and discusses its limitations and potential improvements. This work contributes to enhancing online user safety and mitigating the impact of harmful speech.
 
 Introduction
+
 The rise of social media has transformed communication, but it has also led to an increase in harmful and toxic content (ElSherief, Kulkarni, & Wang, 2020). This trend has sparked significant concern among researchers, policymakers, and platform administrators about how to effectively manage and mitigate the spread of such content. The challenge lies in developing robust systems that can accurately detect and classify various types of harmful speech in real time. Addressing this issue is crucial for improving online interactions and ensuring user safety.
 
 This study aims to develop and evaluate a multi-label text classification model that identifies different types of harmful comments on social media platforms. By focusing on categories such as toxic, severely toxic, obscene, threatening, insulting, and identity-related harm, the research combines advanced text preprocessing, feature extraction techniques, and logistic regression to create a comprehensive solution. The use of the MultiOutputClassifier framework and GridSearchCV for hyperparameter optimization enhances the model's performance (Curry, Abercrombie, & Rieser, 2021). This research contributes to the broader effort of refining online content moderation systems and fostering a safer digital environment.
@@ -108,8 +111,4 @@ Expand datasets for greater model generalization.
 Conclusion
 
 This study developed a robust multi-label classification model to detect various forms of harmful speech, contributing to improving online content moderation and user safety.
-
-References
-
-Namdari, R. (2023). YouTube toxicity data [Data set]. Kaggle.Zhang, L., Zhao, J., & LeCun, Y. (2015).
 
